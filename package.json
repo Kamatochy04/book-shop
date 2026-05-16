@@ -1,0 +1,25 @@
+{
+  "name": "shop-for-yarik",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Book shop built with React, TypeScript, Tailwind and Strapi.",
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "dev:backend": "npm run develop --workspace backend",
+    "build": "npm run build --workspace frontend",
+    "build:frontend": "npm run build --workspace frontend",
+    "build:backend": "npm run build --workspace backend"
+  },
+  "keywords": [
+    "book-shop",
+    "react",
+    "strapi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}
